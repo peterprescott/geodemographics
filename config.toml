@@ -51,7 +51,7 @@ pluralizelisttitles = false
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/peterprescott"
+    url = "https://twitter.com/peter_prescott"
     name = "fab fa-twitter"
     weight = 3
 
