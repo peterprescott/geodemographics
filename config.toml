@@ -36,7 +36,21 @@ pluralizelisttitles = false
 
 
 [[menu.icon]]
-    url = "https://github.com/peterprescott"
-    name = "fab fa-github"
+    url = "https://peter.prescott.org.uk"
+    name = "fas fa-male"
     weight = 1
 
+[[menu.icon]]
+    url = "https://news.ycombinator.com/user?id=peterprescott"
+    name = "fab fa-hacker-news-square"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/peterprescott"
+    name = "fab fa-twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://github.com/peterprescott"
+    name = "fab fa-github"
+    weight = 4
