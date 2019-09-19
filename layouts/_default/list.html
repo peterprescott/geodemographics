@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+
+<main>
+
+    <h1>{{ .Title }}</h1>
+
+
+    <div class="text-justify">{{ .Content }}</div>
+
+    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+
+</main>
+
+{{ partial "paginator" . }}
+
+{{ partial "footer" . }}
