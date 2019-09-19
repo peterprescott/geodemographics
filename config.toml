@@ -10,7 +10,7 @@ pluralizelisttitles = false
 
 [params]
     author = "Peter Prescott"
-    description = "A Portfolio of PhD Projects"
+    description = "My PhD process and other assorted projects"
     descriptionLink = "https://www.github.com/peterprescott"
     githubUsername = "peterprescott"
     accent = "blue"
@@ -29,6 +29,11 @@ pluralizelisttitles = false
     url = "/projects/"
     name = "Projects"
     weight = 2
+ 
+[[menu.main]]
+    url = "/notes/"
+    name = "Notes"
+    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
