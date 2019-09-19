@@ -1,4 +1,4 @@
-## Hi, I'm [Peter Prescott](https://peter.prescott.org.uk).
+## Hi, I'm [Peter Prescott](https://peter.prescott.org.uk) and this is [my PhD portfolio](https://geodemographics.co.uk).
 
 I've been given funding by [the ESRC](https://esrc.ukri.org/) to undertake [a 4-year integrated PhD and MSc in Data Analytics and Society](https://datacdt.org/) at the University of Liverpool's [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-data-science/about/), under the supervision of [Professor Alex Singleton](http://www.alex-singleton.com/).
 
