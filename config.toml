@@ -59,3 +59,9 @@ pluralizelisttitles = false
     url = "https://github.com/peterprescott"
     name = "fab fa-github"
     weight = 4
+    
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/peterprescott/"
+    name = "fab fa-linkedin"
+    weight = 5
+
