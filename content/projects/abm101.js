@@ -120,34 +120,27 @@ function generate(num_of_agents){
     for (i = 0; i < num_of_agents; i++){
 	    new Agent(Math.random()*500, Math.random()*500);
     }
-    
+    paint(backdrop, env)
     draw(agents)
 }
 
-var iterations = 0
 function iterate(){
         for (i = 0; i < agents.length; i++){
             agents[i].move()
             agents[i].eat()
         }
-        
-		iterations = iterations + 1
-		if ((iterations%50)==0){paint(backdrop, env)}
-
+		paint(backdrop, env)
         draw(agents)
 
  }
 
 function more(){
-	console.log('still with you')
-	getNumber = Number(document.getElementById('agentnumber').value)
-	console.log('got the number '+getNumber)
-	generate(getNumber)
-
+	agents.push(new Agent(Math.random()*500, Math.random()*500))
 }
 
+function less(){if(agents.length>1){agents.pop()}}
 
 generate(num_of_agents)
 
-var refreshIntervalId =  setInterval(iterate, 1)
+var refreshIntervalId =  setInterval(iterate, 10)
 
