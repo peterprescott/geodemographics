@@ -39,16 +39,7 @@ But you probably want to be able to **see** what your model is actually doing. W
 pip install -r graphic_requirements.txt
 python run_model.py animate
 ```
-
 ![GIF showing run_model.py animation](../../images/abm.gif)
-
-
-
-
-
-This project is the result of working through the practicals for [our first core module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/), hosted by Leeds University.
-
-You can find the source code in [my Github repository](https://github.com/peterprescott/agent-based-modelling).
 
 I then tried [the same sort of thing in JavaScript](https://github.com/peterprescott/js-agent-modelling), so that the graphical interface could be easily displayed in a web browser:
     <center>
