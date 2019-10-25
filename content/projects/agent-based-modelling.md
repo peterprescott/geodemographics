@@ -49,6 +49,7 @@ python run_model.py animate
 ```
 
 You should then see a visual animation of your model as it runs: specifically, white and black dots wobbling around on a yellowly-green square. The white dots represent male rabbits; the black dots female rabbits.
+
 ![GIF showing run_model.py animation](../../images/abm.gif)
 
 You can specify the parameters with which the model runs from the command line, in this order: *num_of_agents*, *lifespan*, *neighbourhood*, *num_of_iterations*. These must each be an integer value, otherwise the model will just run with default values.
@@ -61,13 +62,10 @@ This would run the model with 20 agents (all with a lifespan of 100, and a matin
 
 <a name="discuss"></a>
 ## Discussion
-Those practicals developed a class of Agent that took random walks across a two-dimensional Environment, stored resources from that Environment, and interacted with other Agents within a certain specified 'neighbourhood' range.
 
-I then extended the model by writing a child Rabbit class that inherited move() and eat() functions from the parent Agent class, but added the idea of ageing, death, and reproduction.
+The practicals developed a class of `Agent` that took random walks across a two-dimensional `Environment`, stored resources from that Environment, and interacted with other Agents within a certain specified 'neighbourhood' range.
 
-Those practicals developed a class of Agent that took random walks across a two-dimensional Environment, stored resources from that Environment, and interacted with other Agents within a certain specified 'neighbourhood' range.
-
-I then extended the model by writing a child Rabbit class that inherited move() and eat() functions from the parent Agent class (though now with the idea that eating gives the energy essential for life, and for movement)...
+I then extended the model by writing a child `Rabbit` class that inherited `move()` and `eat()` functions from the parent Agent class (though now with the idea that eating gives the energy essential for life, and for movement)...
 
 ```python
 
@@ -89,7 +87,7 @@ I then extended the model by writing a child Rabbit class that inherited move() 
 
 ```
 
-and then added a ```mate(range)``` function, as well as get_older() and die() functions.
+and then added a ```mate(range)``` function, as well as `get_older()` and `die()` functions.
 
 ```python
 
@@ -133,7 +131,7 @@ and then added a ```mate(range)``` function, as well as get_older() and die() fu
 
 ```
 
-These functions introduced the ideas of age, lifespan, sex, and being pregnant, so when a Rabbit is initialized, we add these properties to those inherited from its initialization as an Agent. We also used [the ```names``` package](https://pypi.org/project/names/) to assign names to each rabbit.
+These functions introduced the ideas of *age*, *lifespan*, *sex*, and being *pregnant*, so when a Rabbit is initialized, we add these properties to those inherited from its initialization as an Agent. We also used [the ```names``` package](https://pypi.org/project/names/) to assign names to each rabbit.
 
 ```python
     def __init__(self, env, agents, x, y, lifespan):
