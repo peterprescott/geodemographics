@@ -6,7 +6,7 @@ draft: false
 
 A project done as part of [the Data CDT](https://datacdt.org/)'s GEOG5995M/ENVS802 module: **Programming For Social Scientists**.
 
-Contents: [Intro](#intro). [Installation](#install). [Discussion](#discuss).
+Contents: [Intro](#intro). [Installation](#install). [Discussion](#discuss). [Browser Demo](#demo)
 
 <a name="intro"></a>
 ## Intro
@@ -49,10 +49,15 @@ python run_model.py animate
 ```
 
 You should then see a visual animation of your model as it runs: specifically, white and black dots wobbling around on a yellowly-green square. The white dots represent male rabbits; the black dots female rabbits.
-
 ![GIF showing run_model.py animation](../../images/abm.gif)
 
-You can specify the parameters with which the model runs from the command line, in this order: num_of_agents, lifespan, neighbourhood, num_of_iterations. These must each be an integer value, otherwise the model will just run with default values.
+You can specify the parameters with which the model runs from the command line, in this order: *num_of_agents*, *lifespan*, *neighbourhood*, *num_of_iterations*. These must each be an integer value, otherwise the model will just run with default values.
+
+You also need to specify that you want it to be animated by adding an ```a``` at the end.
+```console
+python run_model.py 20 100 10 1000 a
+```
+This would run the model with 20 agents (all with a lifespan of 100, and a mating range of 10) for 1000 iterations.
 
 <a name="discuss"></a>
 ## Discussion
@@ -149,6 +154,9 @@ These functions introduced the ideas of age, lifespan, sex, and being pregnant, 
         
 ```
 
+<a name="intro"></a>
+## Browser Demo
+
 I then tried [the same sort of thing in JavaScript](https://github.com/peterprescott/js-agent-modelling), so that the graphical interface could be easily displayed in a web browser:
     <center>
 		<svg id="backdrop" width=500 height=500 style="border:1px solid black"></svg><br>
@@ -157,3 +165,5 @@ I then tried [the same sort of thing in JavaScript](https://github.com/peterpres
 	</center>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="/projects/abm101.js"></script>
+
+At the moment all you have is agents interacting with the environment, and the rendering is rather glitchy as I haven't worked out how to use D3.js very well. But if anyone wants to develop it, they are free to [clone the repository and do so!](https://github.com/peterprescott/js-agent-modelling).
