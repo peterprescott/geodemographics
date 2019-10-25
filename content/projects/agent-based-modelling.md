@@ -68,7 +68,7 @@ The practicals developed a class of `Agent` that took random walks across a two-
 I then extended the model by writing a child `Rabbit` class that inherited `move()` and `eat()` functions from the parent Agent class (though now with the idea that eating gives the energy essential for life, and for movement)...
 
 ```python
-#~ [agentframework.py](https://github.com/peterprescott/agent-based-modelling/blob/master/agentframework.py) ... lines 149-165
+#~ agentframework.py ... lines 149-165
 
     def move(self):
         """Rabbit moves just like an Agent, but uses energy to do so."""
@@ -91,7 +91,7 @@ I then extended the model by writing a child `Rabbit` class that inherited `move
 and then added a ```mate(range)``` function, as well as `get_older()` and `die()` functions.
 
 ```python
-#~ [agentframework.py](https://github.com/peterprescott/agent-based-modelling/blob/master/agentframework.py) ... lines 165-203
+#~ agentframework.py ... lines 165-203
 
     def mate(self, range):
         """Mature female rabbits become pregnant whenever male is in range,
@@ -136,7 +136,7 @@ and then added a ```mate(range)``` function, as well as `get_older()` and `die()
 These functions introduced the ideas of *age*, *lifespan*, *sex*, and being *pregnant*, so when a Rabbit is initialized, we add these properties to those inherited from its initialization as an Agent. We also used [the ```names``` package](https://pypi.org/project/names/) to assign names to each rabbit.
 
 ```python
-#~ [agentframework.py](https://github.com/peterprescott/agent-based-modelling/blob/master/agentframework.py) ... lines 130-145.
+#~ agentframework.py ... lines 130-145.
 
     def __init__(self, env, agents, x, y, lifespan):
         """Initialize Rabbit"""
