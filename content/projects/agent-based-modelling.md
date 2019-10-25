@@ -68,6 +68,7 @@ The practicals developed a class of `Agent` that took random walks across a two-
 I then extended the model by writing a child `Rabbit` class that inherited `move()` and `eat()` functions from the parent Agent class (though now with the idea that eating gives the energy essential for life, and for movement)...
 
 ```python
+#~ agentframework.py ... lines 149-165
 
     def move(self):
         """Rabbit moves just like an Agent, but uses energy to do so."""
@@ -90,6 +91,7 @@ I then extended the model by writing a child `Rabbit` class that inherited `move
 and then added a ```mate(range)``` function, as well as `get_older()` and `die()` functions.
 
 ```python
+#~ agentframework.py ... lines 165-203
 
     def mate(self, range):
         """Mature female rabbits become pregnant whenever male is in range,
@@ -134,6 +136,8 @@ and then added a ```mate(range)``` function, as well as `get_older()` and `die()
 These functions introduced the ideas of *age*, *lifespan*, *sex*, and being *pregnant*, so when a Rabbit is initialized, we add these properties to those inherited from its initialization as an Agent. We also used [the ```names``` package](https://pypi.org/project/names/) to assign names to each rabbit.
 
 ```python
+#~ agentframework.py ... lines 130-145.
+
     def __init__(self, env, agents, x, y, lifespan):
         """Initialize Rabbit"""
         
@@ -152,15 +156,87 @@ These functions introduced the ideas of *age*, *lifespan*, *sex*, and being *pre
         
 ```
 
-<a name="demo"></a>
-## Browser Demo
+<a name="tkinter"></a>
+## GUI 1 : Tkinter
 
-I then tried [the same sort of thing in JavaScript](https://github.com/peterprescott/js-agent-modelling), so that the graphical interface could be easily displayed in a web browser:
-    <center>
-		<svg id="backdrop" width=500 height=500 style="border:1px solid black"></svg><br>
-		<button onClick=more()>Add Agent</button>
-		<button onClick=less()>Remove Agent</button>
-	</center>
+So you're happy working from the command line -- but suppose we wanted to make a Graphical User Interface to perhaps make it more accessible for others to use.
+
+One option is to make a native app, using Python's Tkinter.
+
+```python
+#~ gui.py ... lines 51 ff.
+
+    # Configure Tkinter.
+    root = tkinter.Tk()
+    root.wm_title("Model")
+    fig = matplotlib.pyplot.figure(figsize=(7, 7))
+    canvas = matplotlib.backends.backend_tkagg.FigureCanvasTkAgg(fig, master=root)
+    canvas._tkcanvas.pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
+    menu_bar = tkinter.Menu(root)
+    root.config(menu=menu_bar)
+    model_menu = tkinter.Menu(menu_bar)
+    menu_bar.add_cascade(label="Model", menu=model_menu)
+    model_menu.add_command(label="Run model", command=run)
+
+
+    tkinter.mainloop()
+```
+
+You can run it with ```python gui.py``` from the command line -- or you can just double-click the file in Windows, and (so long as Python 3.7 is installed), the file will run for you.
+
+Currently all you can do is run the model with the default parameter values (which are set from within ```read_cmd.py```, and could perhaps be changed from there -- EDIT then SAVE -- by our hypothetical CLI-phobic data analyst), but this GUI could be developed if necessary. 
+
+<a name="demo"></a>
+## GUI 2: Browser
+
+The other possibility -- which will allow us to much more easily reach a much larger potential audience -- is to make a (web-)browser-based GUI app. Javascript and Python are similar enough that it seemed like the simplest solution might be to rewrite [the same sort of model in JavaScript](https://github.com/peterprescott/js-agent-modelling)
+
+```javascript
+// script.js ... lines 13-50
+
+class Agent {
+  constructor(x, y) {
+    // set initial values
+    this.id = total_agents;
+    total_agents ++;
+    this.x = x;
+    this.y = y;
+    this.step_size = step_size;
+    this.store = 0
+    agents.push(this)
+    }
+
+    move(){
+        if (Math.random() < 0.5) {this.x = (((this.x + this.step_size) % 500) + 500) % 500} else {this.x = (((this.x - this.step_size) % 500) + 500) % 500}
+        if (Math.random() < 0.5) {this.y = (((this.y + this.step_size) % 500) + 500) % 500} else {this.y = (((this.y - this.step_size) % 500) + 500) % 500}    
+        this.interact()
+    }
+
+	eat(){
+		if (env.matrix[Math.round(this.x/100)][Math.round(this.y/100)] > 0){
+			console.log('eating');
+			env.matrix[Math.round(this.x/100)][Math.round(this.y/100)] = env.matrix[Math.round(this.x/100)][Math.round(this.y/100)] - .1
+		}
+		
+	}
+
+    interact(){
+        for (let j=0 ; j < agents.length ; j++){ 
+        if (distance_between(this.id, j) < neighbourhood ){
+            if(this.id==j){}
+            else{console.log('do something interactive')}
+        }
+    }
+    }
+
+}
+```
+Here's what it looks like:
+<center>
+	<svg id="backdrop" width=500 height=500 style="border:1px solid black"></svg><br>
+	<button onClick=more()>Add Agent</button>
+	<button onClick=less()>Remove Agent</button>
+</center>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="/projects/abm101.js"></script>
 
