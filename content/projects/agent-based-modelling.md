@@ -33,15 +33,13 @@ pip install -r requirements.txt
 python run_model.py
 ```
 
-[![asciicast](https://asciinema.org/a/6ldhFPdvzJSHvyrVz0bcSQJp2.svg)](https://asciinema.org/a/6ldhFPdvzJSHvyrVz0bcSQJp2)
-<script id="asciicast-6ldhFPdvzJSHvyrVz0bcSQJp2" src="https://asciinema.org/a/6ldhFPdvzJSHvyrVz0bcSQJp2.js" async></script>
+<script id="asciicast-6ldhFPdvzJSHvyrVz0bcSQJp2" src="https://asciinema.org/a/6ldhFPdvzJSHvyrVz0bcSQJp2.js" data-speed="3" data-rows="10" async></script>
 
 If everything is working correctly, you should be told the *Initial Parameters* with which the model is running (as ```python run_model.py``` doesn't specify any, the model will use the defaults), and that the various steps of running the model have successfully taken place, including how long it took to run the model, and the details of the machine you are using to run it. The output data is saved in the ```output_files``` folder.
 
 If you are interested in testing the speed of the model with iterations of various orders of magnitude, then you can use the ```tests.sh``` or ```tests.bat``` script in the `tests` folder to do so efficiently. 
 
-[![asciicast](https://asciinema.org/a/WO9oNzJcxv3veBcjtm7FRpjEA.svg)](https://asciinema.org/a/WO9oNzJcxv3veBcjtm7FRpjEA)
-<script id="asciicast-WO9oNzJcxv3veBcjtm7FRpjEA" src="https://asciinema.org/a/WO9oNzJcxv3veBcjtm7FRpjEA.js" async></script>
+<script id="asciicast-WO9oNzJcxv3veBcjtm7FRpjEA" src="https://asciinema.org/a/WO9oNzJcxv3veBcjtm7FRpjEA.js" data-speed="3" data-rows="10" async></script>
 
 But you probably want to be able to **see** what your model is actually doing. We use [Matplotlib](https://matplotlib.org/) for the graphic visualization. You then run ```python run_model.py animate```, or just ```python run_model.py a``` if you're feeling lazy. (In fact, any word beginning with 'a' should do the trick!)
 
