@@ -1,12 +1,12 @@
 ---
-title: "Agent Based Modelling"
+title: "Agent-Based Modelling"
 date: 2019-09-19T11:04:12+01:00
 draft: false
 ---
 
 A project done as part of [the Data CDT](https://datacdt.org/)'s GEOG5995M/ENVS802 module: **Programming For Social Scientists**.
 
-Contents: [Intro](#intro). [Installation](#install). [Discussion](#discuss). [Browser Demo](#demo)
+Contents: [Intro](#intro). [Installation](#install). [Discussion](#discuss). [Browser Demo](#demo). [History & Theory](#theory).
 
 <a name="intro"></a>
 ## Intro
@@ -152,7 +152,7 @@ These functions introduced the ideas of *age*, *lifespan*, *sex*, and being *pre
         
 ```
 
-<a name="intro"></a>
+<a name="demo"></a>
 ## Browser Demo
 
 I then tried [the same sort of thing in JavaScript](https://github.com/peterprescott/js-agent-modelling), so that the graphical interface could be easily displayed in a web browser:
@@ -165,3 +165,10 @@ I then tried [the same sort of thing in JavaScript](https://github.com/peterpres
 <script src="/projects/abm101.js"></script>
 
 At the moment all you have is agents interacting with the environment, and the rendering is rather glitchy as I haven't worked out how to use D3.js very well. But if anyone wants to develop it, they are free to [clone the repository and do so!](https://github.com/peterprescott/js-agent-modelling).
+
+<a name="theory"></a>
+## History & Theory
+
+The week that this project was due for submission, I also had the chance to give a short *Lightning Talk* on Agent-Based Modelling as a key technique in Geographic Data Science. You can see the slides below.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> 
