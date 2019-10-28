@@ -247,4 +247,4 @@ At the moment all you have is agents interacting with the environment, and the r
 
 The week that this project was due for submission, I also had the chance to give a brief talk on Agent-Based Modelling as a key technique in Geographic Data Science. You can see the slides below.
 
-<iframe src="https://www.slideshare.net/peterandtaryn/a-brief-introduction-to-agentbased-modelling" width="400" height="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2TyZ8rQMWYzzjj" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
