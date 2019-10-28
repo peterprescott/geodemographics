@@ -6,7 +6,7 @@ draft: false
 
 A project done as part of [the Data CDT](https://datacdt.org/)'s GEOG5995M/ENVS802 module: **Programming For Social Scientists**.
 
-Contents: [Intro](#intro). [Installation](#install). [Discussion](#discuss). [Browser Demo](#demo). [History & Theory](#theory).
+Contents: [Intro](#intro). [Installation](#install). [Discussion](#discuss). [GUI 1: Tkinter](#tkinter). [GUI 2: Browser](#browser). [History & Theory](#theory).
 
 <a name="intro"></a>
 ## Intro
@@ -48,7 +48,7 @@ pip install -r graphic_requirements.txt
 python run_model.py animate
 ```
 
-You should then see a visual animation of your model as it runs: specifically, white and black dots wobbling around on a yellowly-green square. The white dots represent male rabbits; the black dots female rabbits.
+You should then see a visual animation of your model as it runs: specifically, white and black dots wobbling around on a yellowly-green square. The white dots represent male rabbits; the black dots female rabbits; the green square the grassy field in which the rabbits live, with the changing brightness corresponding to how much grass is in a particular spot.
 
 ![GIF showing run_model.py animation](../../images/abm.gif)
 
@@ -245,6 +245,6 @@ At the moment all you have is agents interacting with the environment, and the r
 <a name="theory"></a>
 ## History & Theory
 
-The week that this project was due for submission, I also had the chance to give a short *Lightning Talk* on Agent-Based Modelling as a key technique in Geographic Data Science. You can see the slides below.
+The week that this project was due for submission, I also had the chance to give a brief talk on Agent-Based Modelling as a key technique in Geographic Data Science. You can see the slides below.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> 
+<iframe src="https://www.slideshare.net/peterandtaryn/a-brief-introduction-to-agentbased-modelling" width="400" height="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> 
