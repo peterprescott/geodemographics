@@ -104,7 +104,7 @@ function paint(backdrop, env = Environment){
 					//draw env.matrix[x][y] pixel
 					let posX = x*100-50
 					let posY = y*100-50
-					backdrop.innerHTML += '<rect fill="rgb(0,' + env.matrix[x][y] + ',0)" x="' + posX + '" y="' + posY + '" width="100" height="100" />'
+					backdrop.innerHTML += '<rect fill="rgb(0,0,' + env.matrix[x][y] + ')" x="' + posX + '" y="' + posY + '" width="100" height="100" />'
 			}
 
 		}
