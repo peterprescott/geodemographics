@@ -14,7 +14,7 @@ This project is the result of working through [the practical exercises](https://
 
 It is 'licensed' under the [The Unlicense](https://unlicense.org/), and available on [my Github](https://github.com/peterprescott/agent-based-modelling). 
 
-It is intended to be [run from the command line](https://www.howtogeek.com/437682/command-lines-why-do-people-still-bother-with-them/), though the project includes the beginnings of a Tkinter GUI, as well as a [proof-of-concept of a web-page GUI with code written in JavaScript](https://github.com/peterprescott/js-agent-modelling) instead of Python.
+It is intended to be run from the command line, as "the command line has many great advantages that can really make you a more efficient and productive data scientist" ([Janssens 2014](https://www.datascienceatthecommandline.com/chapter-1-introduction.html)). However the project also includes the beginnings of a Tkinter GUI, as well as a [proof-of-concept of a web-page GUI with code written in JavaScript](https://github.com/peterprescott/js-agent-modelling) instead of Python. "
 
 <a name="install"></a>
 ## Installation
