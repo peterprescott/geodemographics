@@ -4,12 +4,6 @@ date: 2019-12-13T01:04:12+01:00
 draft: false
 ---
 
-A second project ([here's the first](https://geodemographics.co.uk/projects/agent-based-modelling/)) done as part of [the Data CDT](https://datacdt.org/)'s [GEOG5995M/ENVS802 module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/): **Programming For Social Scientists**.
-
-It is 'licensed' under the [The Unlicense](https://unlicense.org/), and available on [my Github](https://github.com/peterprescott/citation-graph).
-
-README Contents:  [Demo](#demo). [Installation and Quickstart](#install). [Task](#task). [Background Research](#research). [Software Design](#design). [Documentation](#docs).
-
 <a id="demo"></a>
 # Demo
 
@@ -33,6 +27,11 @@ Have a play with this:
 <script src="/projects/graph.js" defer></script>
 <link rel="stylesheet" type="text/css" href="/projects/graph.css">
 
+This is a second project done as part of [the Data CDT](https://datacdt.org/)'s [GEOG5995M/ENVS802 module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/): **Programming For Social Scientists**.
+
+It is 'licensed' under the [The Unlicense](https://unlicense.org/), and available on [my Github](https://github.com/peterprescott/citation-graph).
+
+README Contents:  [Demo](#demo). [Installation and Quickstart](#install). [Task](#task). [Background Research](#research). [Software Design](#design). [Documentation](#docs).
 
 <a id="install"></a>
 # Installation and Quickstart
