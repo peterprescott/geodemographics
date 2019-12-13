@@ -11,7 +11,7 @@ Have a play with this:
 
 <center>
     <textTitle></textTitle><br>
-    <authors>Click a Citation Graph Node for Bibliographic Data</authors> <publicationDate></publicationDate><br>
+    <authors>Drag a Citation Graph Node for Bibliographic Data</authors> <publicationDate></publicationDate><br>
     <svg width="960" height="400"></svg>
 <br>
 @<citationKey>RWebberBurrows2018</citationKey><br>
