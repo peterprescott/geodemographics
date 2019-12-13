@@ -1,6 +1,6 @@
 ---
 title: "Linear Regression & Census Data"
-date: 2019-11-12T11:04:12+01:00
+date: 2019-12-12T11:04:12+01:00
 draft: false
 ---
 
