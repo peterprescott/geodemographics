@@ -1,6 +1,6 @@
 ---
 title: "Qualitative Research Methods Essay"
-date: 2019-012-12T11:04:12+01:00
+date: 2019-12-12T11:04:12+01:00
 draft: false
 ---
 
