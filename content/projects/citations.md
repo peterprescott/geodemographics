@@ -10,8 +10,6 @@ draft: false
 Have a play with this: 
 
 <center>
-    <h1>Citation Graph</h1>
-    <h2>Literature Info:</h2>
     <textTitle></textTitle><br>
     <authors>Click a Citation Graph Node for Bibliographic Data</authors> <publicationDate></publicationDate><br>
     <svg width="960" height="400"></svg>
