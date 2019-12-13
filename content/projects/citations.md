@@ -33,7 +33,7 @@ This is a second project done as part of [the Data CDT](https://datacdt.org/)'s 
 
 It is 'licensed' under the [The Unlicense](https://unlicense.org/), and available on [my Github](https://github.com/peterprescott/citation-graph).
 
-README Contents:  [Demo](#demo). [Installation and Quickstart](#install). [Task](#task). [Background Research](#research). [Software Design](#design). [Documentation](#docs).
+README Contents:  [Demo](#demo). [Installation and Quickstart](#install). [Task](#task). [Background Research](#research). [Software Design](#design). [Documentation](#docs). [Conclusion](#conclusion).
 
 <a id="install"></a>
 # Installation and Quickstart
@@ -204,6 +204,17 @@ Throughout the development of this program, I am trying to practise the principl
 ## Virtual Environment & Package Installation Management
 
 I have also used [Pipenv](https://pypi.org/project/pipenv/) to manage package installation within a contained virtual environment.
+
+<a id="conclusion"></a>
+# Some Personal Concluding Thoughts
+
+I'm fairly happy with how this has turned out, and I think it might be a genuinely useful tool as I begin these four years of work towards this PhD. 
+
+[Jimmy Tidey ](https://mystudentvoices.com/scraping-google-scholar-to-write-your-phd-literature-chapter-2ea35f8f4fa1) was apparently able to scrape Google Scholar without any trouble to obtain a massive amount of citation data to graph the key authors in his field, but I found that if I tried to automate any extraction from their citation index, my program was immediately identified as a bot and my IP address briefly blocked from searching Google Scholar. [Further research](https://academia.stackexchange.com/questions/2567/api-eula-and-scraping-for-google-scholar) confirmed that I had apparently violated their Terms of Service.
+
+My method of visualizing every single text dynamically as a node (whereas, I now note, Tidey shows authors, and his graphic is static) also means that it doesn't take too much before the display is overcrowded -- just extracting all the references from Webber and Burrows' *Predictive Postcode* threatens to swamp everything else, and d3.js becomes quite slow with over a hundred nodal points shown. 
+
+There are various directions this could be extended with more time. My priority would probably to write a less precise, but more general, extraction script for other journal articles saved as PDFs -- in retrospect, I should have done that before trying to fine-tune the extraction of all RWebberBurrows2018's references.
 
 <a id="docs"></a>
 # Documentation
