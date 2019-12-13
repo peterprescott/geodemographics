@@ -222,7 +222,7 @@ function clickButton(){
     totalData = {"nodes":[], "links":[]}
     console.log('Clicked Button')
     console.log(document.getElementById('radius'))
-    fetch_JSON_data('https://pythonanywhere.com/api/' + citationKey + '/' + radius)
+    fetch_JSON_data('https://citations.pythonanywhere.com/api/' + citationKey + '/' + radius)
 }
 
 loadGraph(totalData)
