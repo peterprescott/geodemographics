@@ -1,3 +1,9 @@
+---
+title: "Citation Graph"
+date: 2019-12-13T01:04:12+01:00
+draft: false
+---
+
 # Citation Graph of Scholarly Literature
 
 A second project ([here's the first](https://geodemographics.co.uk/projects/agent-based-modelling/)) done as part of [the Data CDT](https://datacdt.org/)'s [GEOG5995M/ENVS802 module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/): **Programming For Social Scientists**.
