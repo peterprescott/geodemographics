@@ -25,6 +25,8 @@ Have a play with this:
 <script src="/projects/graph.js" defer></script>
 <link rel="stylesheet" type="text/css" href="/projects/graph.css">
 
+(Note that the visualized nodes do sometimes get stuck in the top left of their SVG field -- if that happens just click-and-drag them down with your mouse cursor). 
+
 This is a second project done as part of [the Data CDT](https://datacdt.org/)'s [GEOG5995M/ENVS802 module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/): **Programming For Social Scientists**.
 
 It is 'licensed' under the [The Unlicense](https://unlicense.org/), and available on [my Github](https://github.com/peterprescott/citation-graph).
@@ -46,7 +48,7 @@ cd citation-graph
 pipenv shell
 python run.py
 ```
-The program will be initially running on data that I've already entered, saved in the SQLite database `citation-graph.db`. (Note that the visualized nodes do sometimes get stuck in the top left of their SVG field -- if that happens just click-and-drag them down with your mouse cursor). 
+The program will be initially running on data that I've already entered, saved in the SQLite database `citation-graph.db`.
 
 To prove the functionality of the program, let's delete the database file, and then recreate it.
 
