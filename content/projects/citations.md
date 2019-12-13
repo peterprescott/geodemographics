@@ -60,7 +60,7 @@ rm citation-graph.db
 
 You can still keep the web-page interface open, but if you try clicking *Load More Data*, the Python code will report `sqlite3.OperationalError: no such table: texts`. But we can quickly recreate the database (which is generated from .bib files in the `bib_files\` folder -- more on that later!)
 
-```
+```console
 pipenv shell
 python db_commands.py
 python reader.py load
@@ -146,7 +146,7 @@ Read the full documentation [here](https://citation-graph.readthedocs.io/en/late
 Contains class frameworks for parsing data from .bib files (Bib), .pdf files (Pdf), and bibliographic/citation APIs (Api) respectively.
 
 Can be run directly from the command-line if there is new data you want to save to the database, like so:
-```
+```console
 python reader.py citationkey
 ```
 where *citationkey* is the citation key of a .pdf file (ie. citationkey.pdf) 
