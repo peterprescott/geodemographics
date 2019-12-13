@@ -45,7 +45,9 @@ python --version
 git --version
 git clone https://github.com/peterprescott/citation-graph
 cd citation-graph
+pip install pipenv
 pipenv shell
+pipenv install
 python run.py
 ```
 The program will be initially running on data that I've already entered, saved in the SQLite database `citation-graph.db`.
