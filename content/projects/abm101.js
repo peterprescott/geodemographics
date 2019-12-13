@@ -104,7 +104,7 @@ function paint(backdrop, env = Environment){
 					//draw env.matrix[x][y] pixel
 					let posX = x*100-50
 					let posY = y*100-50
-					backdrop.innerHTML += '<rect fill="rgb(0,0,' + env.matrix[x][y] + ')" x="' + posX + '" y="' + posY + '" width="100" height="100" />'
+					backdrop.innerHTML += '<rect fill="rgb(0,' + env.matrix[x][y] + ',0)" x="' + posX + '" y="' + posY + '" width="100" height="100" />'
 			}
 
 		}
@@ -135,10 +135,13 @@ function iterate(){
  }
 
 function more(){
-	agents.push(new Agent(Math.random()*500, Math.random()*500))
+	console.log('still with you')
+	getNumber = Number(document.getElementById('agentnumber').value)
+	console.log('got the number '+getNumber)
+	generate(getNumber)
+
 }
 
-function less(){if(agents.length>1){agents.pop()}}
 
 generate(num_of_agents)
 
