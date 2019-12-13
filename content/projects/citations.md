@@ -128,7 +128,7 @@ A simple static site interface is used for graphic visualization.
 
 The static site interface (separated of course into its HTML, CSS, and JS components) is influenced by [modern JAMstack principles](https://www.netlify.com/pdf/oreilly-modern-web-development-on-the-jamstack.pdf) which suggest enabling dynamic interactivity on fundamentally static web-pages by using front-end Javascript in combination with cloud-hosted APIs, which increases speed, security and simplicity compared to the traditional 'dynamic web-page' served live (most commonly with the [LAMPstack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)).
 
-As an example, I have set up a cloud-hosted copy of this program at [citations.pythonanywhere.com](https://citations.pythonanywhere.com), and a corresponding static interface on [my own static site](https://geodemographics.co.uk/citations).
+As an example, I have set up a cloud-hosted copy of this program at [citations.pythonanywhere.com](https://citations.pythonanywhere.com), and a corresponding static interface on [my own static site](https://geodemographics.co.uk/projects/citations).
 
 But a static site can also engage with an API served locally, as is the primary intention here.
 
