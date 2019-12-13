@@ -27,6 +27,8 @@ Have a play with this:
 
 When you click and drag the node, you will see its title, author, and publication date above the visualization; and below you will see its 'citation key', and you can set the 'radius' of the network centred on that text which you want to see graphed.
 
+By 'radius', I mean the degree of separation between the text and another: ie. '0' only returns the text itself; '1' returns all that cite or are cited by the text, '2' includes things that are cited by texts that are cited by the text... Note that our data is being drawn from a limited set that I have inputted (as we will discuss).
+
 (Note that when you load more data the visualized nodes do sometimes get stuck in the top left of their SVG field -- if that happens just click-and-drag them down with your mouse cursor). 
 
 This is a second project done as part of [the Data CDT](https://datacdt.org/)'s [GEOG5995M/ENVS802 module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/): **Programming For Social Scientists**.
