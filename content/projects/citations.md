@@ -19,18 +19,13 @@ Have a play with this:
 <center>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.0.0/d3.min.js" defer></script>
 <script src="/projects/graph.js" defer></script>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="/projects/graph.css">
-    <h1>Citation Graph</h1>
-    <h2>Literature Info:</h2>
     <textTitle></textTitle><br>
     <authors>Click a Citation Graph Node for Text Data</authors> <publicationDate></publicationDate><br>
-    <svg width="960" height="400"></svg>
+    <svg width="500" height="400"></svg>
 <br>
 <button  type="button" class="btn btn-primary btn-sm" onClick="clickButton()">Load More Data</button>
 </center>
-
-
 
 <a id="install"></a>
 # Installation and Quickstart
