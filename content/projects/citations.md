@@ -25,7 +25,9 @@ Have a play with this:
 <script src="/projects/graph.js" defer></script>
 <link rel="stylesheet" type="text/css" href="/projects/graph.css">
 
-(Note that the visualized nodes do sometimes get stuck in the top left of their SVG field -- if that happens just click-and-drag them down with your mouse cursor). 
+When you click and drag the node, you will see its title, author, and publication date above the visualization; and below you will see its 'citation key', and you can set the 'radius' of the network centred on that text which you want to see graphed.
+
+(Note that when you load more data the visualized nodes do sometimes get stuck in the top left of their SVG field -- if that happens just click-and-drag them down with your mouse cursor). 
 
 This is a second project done as part of [the Data CDT](https://datacdt.org/)'s [GEOG5995M/ENVS802 module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/): **Programming For Social Scientists**.
 
@@ -163,6 +165,8 @@ Parsing .bib files makes use of Pybtex.
 Parsing .pdf files makes use of [Chris Mattmann's tika-python library](https://github.com/chrismattmann/tika-python), which allows Python to use [the Apache Tika toolkit](http://tika.apache.org/) for extracting data and metdata from PDFs. This does require that "Java 7+ installed on your system as tika-python starts up the Tika REST server in the background". Which is an added complication -- but it is quicker, more accurate, and simpler to use ([Boylan-Toomey, 2018](https://medium.com/@justinboylantoomey/fast-text-extraction-with-python-and-tika-41ac34b0fe61)) than the other Python PDF libraries.
 
 Once Tika has extracted the text from the PDF, it is then written to a text-file. This is then parsed using [*regular expressions*](https://docs.python.org/3/library/re.html) for making sense of that data. Unfortunately the standardization of 'Harvard style' is still vague enough that there is a lot of variation, which makes it difficult to generalize a formula for automatically extracting the references from a journal article or book. Currently the algorithm is calibrated to read the references from our initial example starting point: Webber, R., Burrows, R., (2018), *The Predictive Postcode*; the reference chapter of which is saved as `RWebberBurrows2018.pdf` in the `bib_files\` folder.
+
+If you run `python reader.py pdf citationkey` the program will try to extract references from the file in `bib_files\` names *citationkey*.pdf -- note that currently the output from this may not be that accurate. If you just type `python reader.py pdf` it will default to extracting references from RWebberBurrows.pdf, as proof of concept. However, the almost 200 references that are then added do then over-dominate the visualization of citation relationships!
 
 Read the full documentation [here](https://citation-graph.readthedocs.io/en/latest/reader.html), or examine the source code directly [here](https://github.com/peterprescott/citation-graph/blob/master/reader.py).
 
