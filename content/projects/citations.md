@@ -18,7 +18,7 @@ Have a play with this:
 <button  type="button" class="btn btn-light btn-sm" onClick="decrease()">-</button>
 <radius>1</radius>
 <button  type="button" class="btn btn-light btn-sm" onClick="increase()">+</button><br>
-<button  type="button" class="btn btn-primary btn-sm" onClick="clickButton()">Add Data</button>
+<button  type="button" class="btn btn-primary btn-sm" onClick="clickButton()">Load More Data</button>
 
 </center>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.0.0/d3.min.js" defer></script>
@@ -45,7 +45,9 @@ python --version
 git --version
 git clone https://github.com/peterprescott/citation-graph
 cd citation-graph
+pip install pipenv
 pipenv shell
+pipenv install
 python run.py
 ```
 The program will be initially running on data that I've already entered, saved in the SQLite database `citation-graph.db`.
