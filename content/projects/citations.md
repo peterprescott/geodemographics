@@ -4,8 +4,6 @@ date: 2019-12-13T01:04:12+01:00
 draft: false
 ---
 
-# Citation Graph of Scholarly Literature
-
 A second project ([here's the first](https://geodemographics.co.uk/projects/agent-based-modelling/)) done as part of [the Data CDT](https://datacdt.org/)'s [GEOG5995M/ENVS802 module](https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/): **Programming For Social Scientists**.
 
 It is 'licensed' under the [The Unlicense](https://unlicense.org/), and available on [my Github](https://github.com/peterprescott/citation-graph).
@@ -17,20 +15,21 @@ README Contents:  [Installation and Quickstart](#install). [Task](#task). [Backg
 Have a play with this: 
 
 <center>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.0.0/d3.min.js" defer></script>
-<script src="/projects/graph.js" defer></script>
-<link rel="stylesheet" type="text/css" href="/projects/graph.css">
-    <textTitle></textTitle><br>
-    <authors>Click a Citation Graph Node for Text Data</authors> <publicationDate></publicationDate><br>
+<textTitle></textTitle><br>
+<authors>Click a Citation Graph Node for Text Data</authors> <publicationDate></publicationDate><br>
     <svg width="500" height="400"></svg>
 <br>
 <button  type="button" class="btn btn-primary btn-sm" onClick="clickButton()">Load More Data</button>
 </center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.0.0/d3.min.js" defer></script>
+<script src="/projects/graph.js" defer></script>
+<link rel="stylesheet" type="text/css" href="/projects/graph.css">
+
 
 <a id="install"></a>
 # Installation and Quickstart
 
-You need to have Git and Python installed. If you don't, use your system's recommended package manager to download them from the command line. (For Windows, use [Chocolatey](https://chocolatey.org/install).)
+To run this on your machine you need to have Git and Python installed. If you don't, use your system's recommended package manager to download them from the command line. (For Windows, use [Chocolatey](https://chocolatey.org/install).)
 
 Then clone the Github repository, and navigate into the project folder. You can then immediately run the model:
 
