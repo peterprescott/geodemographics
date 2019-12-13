@@ -14,20 +14,21 @@ README Contents:  [Installation and Quickstart](#install). [Task](#task). [Backg
 
 # Demo
 
-    <center>
-    <script src="http://d3js.org/d3.v4.min.js" defer></script>
-    <script src="graph.js" defer></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="graph.css">
-        <h1>Citation Graph</h1>
-        <h2>Literature Info:</h2>
-        <textTitle></textTitle><br>
-        <authors>Click a Citation Graph Node for Text Data</authors> <publicationDate></publicationDate><br>
-        <svg width="960" height="400"></svg>
-    <br>
-    <button  type="button" class="btn btn-primary btn-sm" onClick="clickButton()">Load More Data</button>
-    
-    </center>
+Have a play with this: 
+
+<center>
+<script src="http://d3js.org/d3.v4.min.js" defer></script>
+<script src="graph.js" defer></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="graph.css">
+    <h1>Citation Graph</h1>
+    <h2>Literature Info:</h2>
+    <textTitle></textTitle><br>
+    <authors>Click a Citation Graph Node for Text Data</authors> <publicationDate></publicationDate><br>
+    <svg width="960" height="400"></svg>
+<br>
+<button  type="button" class="btn btn-primary btn-sm" onClick="clickButton()">Load More Data</button>
+</center>
 
 
 
