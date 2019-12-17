@@ -18,12 +18,15 @@ svg = d3.select("svg"),
 
 color = d3.scaleOrdinal(d3.schemeCategory10);
 
+
+
+function loadGraph(graph) {
+
 simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-function loadGraph(graph) {
 
     svg.selectAll("g").remove();
     svg.selectAll("line").remove();
@@ -49,31 +52,19 @@ function loadGraph(graph) {
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
+          
+  var checkBox = document.getElementById("myCheck");
+  if (checkBox.checked == true){   
+          hidden = null }
+    else { hidden = true}
 
   labels = node.append("text")
       .text(function(d) {
         return d.id;
       })
       .attr('x', 6)
-      .attr('y', 3);
-
-  node.append("title")
-      .text(function(d) { return d.id; });
-
-    svg.append("defs").selectAll("marker")
-        .data(["suit", "licensing", "resolved"])
-      .enter().append("marker")
-        .attr("id", function(d) { return d; })
-        .attr("viewBox", "0 -5 10 10")
-        .attr("refX", 25)
-        .attr("refY", 0)
-        .attr("markerWidth", 6)
-        .attr("markerHeight", 6)
-        .attr("orient", "auto")
-      .append("path")
-        .attr("d", "M0,-5L10,0L0,5 L10,0 L0, -5")
-        .style("stroke", "#4679BD")
-        .style("opacity", "0.6");
+      .attr('y', 3)
+      .attr('hidden', hidden);
 
   simulation
       .nodes(graph.nodes)
@@ -109,6 +100,22 @@ function displayData(d) {
       .text(d.id)
     citationKey = d.id
 
+}
+
+function showKeys() {
+      // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+
+    
+
+  if (checkBox.checked == true){      
+    d3.selectAll('text')
+      .attr('hidden', null);
+  }
+  else {
+    d3.selectAll('text')
+      .attr('hidden', true);
+  }
 }
 
 function dragstarted(d) {
@@ -181,6 +188,7 @@ function fetch_JSON_data(json_api_address){
 }
 
 
+
 initialData = {"nodes":[  {"id":"RWebberBurrows2018",
                         "authors":["Webber", "Burrows"],
                         "title":"The Predictive Postcode-- The Geodemographic Classification of British Society",
@@ -208,6 +216,7 @@ initialData = {"nodes":[  {"id":"RWebberBurrows2018",
                 
                 }
 
+
 totalData=initialData
 
 citationKey = 'RWebberBurrows2018'
@@ -231,7 +240,7 @@ function clickButton(){
     totalData = {"nodes":[], "links":[]}
     console.log('Clicked Button')
     console.log(document.getElementById('radius'))
-    fetch_JSON_data('https://citations.pythonanywhere.com/api/' + citationKey + '/' + radius)
+    fetch_JSON_data('http://127.0.0.1:5000/api/' + citationKey + '/' + radius)
 }
 
 loadGraph(totalData)
