@@ -1,7 +1,8 @@
 ---
-title: "Agent-Based Modelling"
+title: "Project: Agent-Based Modelling"
 date: 2019-09-19T11:04:12+01:00
 draft: false
+tags: [Python, Agent-Based Modelling, GEOG5995M]
 ---
 
 A project done as part of [the Data CDT](https://datacdt.org/)'s GEOG5995M/ENVS802 module: **Programming For Social Scientists**.
