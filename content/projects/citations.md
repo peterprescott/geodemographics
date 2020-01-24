@@ -1,5 +1,5 @@
 ---
-title: "Citation Graph"
+title: "Project: Bibliographic Citation Graph"
 date: 2019-12-13T01:04:12+01:00
 draft: false
 tags: [Python, Network Graphs, GEOG5995M]

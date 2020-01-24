@@ -1,5 +1,5 @@
 ---
-title: "Critiquing A Qualitative Research Method"
+title: "Critiquing a Qualitative Research Method"
 date: 2019-12-12T11:04:12+01:00
 draft: false
 tags: [Qualitative Research, ENVS441]

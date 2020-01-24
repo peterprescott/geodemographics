@@ -5,7 +5,7 @@ draft: false
 tags: [R, Linear Regression, ENVS450]
 ---
 
-You can read this as [a PDF](https://github.com/peterprescott/msc/raw/master/envs450_social_survey_analysis/2/ENVS450_Assignment2_201442927.pdf)-- it was originally written as a [notebook in R Markdown](https://github.com/peterprescott/msc/blob/master/envs450_social_survey_analysis/2/ENVS450_Assignment2_201442927.rmd).
+You can read this as [a PDF](https://github.com/peterprescott/msc/raw/master/envs450_social_survey_analysis/2/ENVS450_Assignment2_201442927.pdf)-- or in its original form as a [notebook in R Markdown](https://github.com/peterprescott/msc/blob/master/envs450_social_survey_analysis/2/ENVS450_Assignment2_201442927.rmd).
 
 ## Abstract 
 The phrase 'housing crisis' has been in widespread use since the 1970s. What are the predictors of home owner-occupancy in the 2010s? Using data from the 2011 Census, I investigate five other variables to find a minimal predictive model, and then discuss the implications of this result.
@@ -653,7 +653,7 @@ When this outlier was removed, the skew calculation was 0.026, which is to say t
 
 ![Histogram and Q-Q Plot showing Normality of Residuals.](/images/regression-modelling/3.png)
 
-## Homoscedasticity: Constancy of Error Variance
+### Homoscedasticity: Constancy of Error Variance
 
 Visual inspection of a Spread-Level Plot (Tukey 1977) shows that the line of best-fit between the absolute studentized residuals and the fitted values is close to horizontal, so error variance is approximately constant.
 

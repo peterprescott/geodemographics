@@ -1,5 +1,5 @@
 ---
-title: "Longley, Maguire, Goodchild & Rhind"
+title: "Talk: Longley, Maguire, Goodchild & Rhind"
 date: 2019-10-07T18:10:11Z
 draft: false
 tags: [Geographic Data Science Lab, Lightning Talk, Longley, Maguire, Goodchild, Rhind]
