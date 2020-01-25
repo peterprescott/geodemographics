@@ -83,4 +83,31 @@ You can [make your code citable with a DOI](https://guides.github.com/activities
 
 ## Documentation
 
-Can be automated with [Sphinx](http://www.sphinx-doc.org/en/master/).
+You can automate documentation with [Sphinx](http://www.sphinx-doc.org/en/master/), in particular by using the [autodoc extension](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html) to extract explanatory function docstrings.
+
+I prefer [Google Style docstrings](https://google.github.io/styleguide/pyguide.html#381-docstrings) to the not-quite-Markdown thing that is [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText), so use the [napoleon extension](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#module-sphinx.ext.napoleon).
+
+```{python}
+# conf.py
+...
+
+# -- General configuration ---------------------------------------------------
+
+master_doc = 'index'
+
+# Add any Sphinx extension module names here, as strings. They can be
+# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+# ones.
+extensions = [
+'sphinx.ext.autodoc',
+'sphinx.ext.autosummary',
+'sphinx.ext.napoleon'
+]
+
+```
+
+## Testing
+
+* [List of Assert methods](https://docs.python.org/3/library/unittest.html#assert-methods)
+* [Unit Testing](https://docs.python.org/3/library/unittest.html)
+* [DocTest](https://docs.python.org/3/library/doctest.html)
