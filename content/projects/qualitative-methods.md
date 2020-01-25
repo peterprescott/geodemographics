@@ -1,8 +1,8 @@
 ---
-title: "Critiquing a Qualitative Research Method"
+title: "'Pedestrian Activist Exploration': Walking as Qualitative Method"
 date: 2019-12-12T11:04:12+01:00
 draft: false
-tags: [Qualitative Research, ENVS441]
+tags: [Qualitative Research, Psychogeography, ENVS441]
 ---
 
 **‘Pedestrian Activist Exploration’**: A Critical Consideration of Walking as Qualitative Method in Two Different Traditions of Socially-Engaged Research.
