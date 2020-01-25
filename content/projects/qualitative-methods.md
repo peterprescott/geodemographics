@@ -147,118 +147,176 @@ Forced to reflect on its weaknesses, I would admit that psychogeographical explo
 But in my view these criticisms (each of which could be rebutted) are linked to the fact that human nature cannot be reduced to anonymized data points (Barassi 2019) in some over-arching matrix. To be human is qualitatively different; that is why even in the era of big data (Kitchin 2014), human geography will always need the thick data (Wang 2013) of qualitative research.
 
 ## References
-Back, Les, and Nirmal Puwar, eds. 2012. Live Methods. The Sociological Review Monographs. Malden, MA: Wiley-Blackwell.
 
-Barassi, Veronica. 2019. “Datafied Citizens in the Age of Coerced Digital Participation.” Sociological Research Online 24 (3): 414–29.
+Back, L. and Puwar, N. (eds.) (2012). Live Methods. The Sociological Review Monographs. Malden, MA:
+Wiley-Blackwell. ISBN 978-1-4443-3959-8.
 
-Bates, Charlotte, and Alex Rhys-Taylor, eds. 2017. Walking Through Social Research. Routledge Advances in Research Methods 22. Abingdon, Oxon ; New York, NY: Routledge.
+Barassi, V. (2019). Datafied Citizens in the Age of Coerced Digital Participation. Sociological Research Online.
+24(3):pp. 414–429.
 
-Bebbington, David W. 2003. Evangelicalism in Modern Britain: A History from the 1730s to the 1980s. Routledge.
+Bates, C. and Rhys-Taylor, A. (eds.) (2017). Walking through Social Research. no. 22 in Routledge Advances in
+Research Methods. Abingdon, Oxon ; New York, NY: Routledge. ISBN 978-1-138-67404-2.
 
-Bennett, Luke. 2011. “BunkerologyA Case Study in the Theory and Practice of Urban Exploration.” Environment and Planning D: Society and Space 29 (3): 421–34. https://doi.org/10.1068/d13410.
+Bebbington, D.W. (2003). Evangelicalism in Modern Britain: A History from the 1730s to the 1980s. Routledge.
 
-Collier, Christopher. 2015. “Psychogeography Adrift: Negotiating Critical Inheritance in a Changed Context.” In Walking Inside Out: Contemporary British Psychogeography, 131–45.
+Bennett, L. (2011). Bunkerology—A Case Study in the Theory and Practice of Urban Exploration. Environment
+and Planning D: Society and Space. 29(3):pp. 421–434. ISSN 0263-7758. doi:10.1068/d13410.
+https://doi.org/10.1068/d13410
 
-Coverley, Merlin. 2010. Psychogeography. Harpenden: Pocket Essentials.
+Collier, C. (2015). Psychogeography adrift: Negotiating critical inheritance in a changed context. in Walking inside
+out: Contemporary British Psychogeography. pp. 131–145.
 
-Cranmer, Frank, John Lucas, and Bob Morris. 2006. Church and State: A Mapping Exercise. London: Constitution Unit.
+Coverley, M. (2010). Psychogeography. Harpenden: Pocket Essentials. ISBN 978-1-84243-347-8. oCLC:
+881288358.
 
-Debord, Guy. 1955. “Introduction to a Critique of Urban Geography.” Translated by Ken Knabb. Les Levres Nues #6. https://www.cddc.vt.edu/sionline/presitu/geography.html.
+Cranmer, F., Lucas, J., and Morris, B. (2006). Church and State: A Mapping Exercise. London: Constitution
+Unit. ISBN 978-1-903903-47-6. oCLC: 64571350.
 
-———. 1956. “Theory of the Dérive.” Translated by Ken Knabb. Les Levres Nues #9. https://www.cddc.vt.edu/sionline/si/theory.html.
+Debord, G. (1955). Introduction to a Critique of Urban Geography. Les Levres Nues. #6.
+https://www.cddc.vt.edu/sionline/presitu/geography.html
 
-———. 1959. “Sur Le Passage de Quelques Personnes à Travers Une Assez Courte Unité de Temps.” https://www.youtube.com/watch?v=s0sfC20aACA.
+——— (1956). Theory of the Dérive. Les Levres Nues. #9.
+https://www.cddc.vt.edu/sionline/si/theory.html
 
-Eagleton, Terry. 2016. Materialism. Yale University Press.
+——— (1959). Sur le passage de quelques personnes à travers une assez courte unité de temps.
+https://www.youtube.com/watch?v=s0sfC20aACA
 
-Garrett, Bradley L. 2013. Explore Everything: Place-Hacking the City. Verso Books.
+Eagleton, T. (2016). Materialism. Yale University Press. ISBN 978-0-300-21880-0.
 
-Gillani, Nabeel, Ann Yuan, Martin Saveski, Soroush Vosoughi, and Deb Roy. 2018. “Me, My Echo Chamber, and I: Introspection on Social Media Polarization.” In Proceedings of the 2018 World Wide Web Conference, 823–31. International World Wide Web Conferences Steering Committee.
+Garrett, B.L. (2013). Explore Everything: Place-Hacking the City. Verso Books. ISBN 978-1-78168-129-9.
 
-Hawthorne, Steve, and Graham Kendrick. 2014. Prayer Walking: Praying on Site with Insight. Charisma House.
+Gillani, N., Yuan, A., Saveski, M., Vosoughi, S., and Roy, D. (2018). Me, my echo chamber, and I: Introspection
+on social media polarization. in Proceedings of the 2018 World Wide Web Conference. pp. 823–831. International
+World Wide Web Conferences Steering Committee.
 
-Holvast, René. 2008. Spiritual Mapping in the United States and Argentina, 1989-2005: A Geography of Fear. Boston, NETHERLANDS, THE: BRILL. http://ebookcentral.proquest.com/lib/liverpool/detail.action?docID=468141.
+Hawthorne, S. and Kendrick, G. (2014). Prayer Walking: Praying on Site with Insight. Charisma House.
 
-Kitchin, Rob. 2014. The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences. SAGE Publications.
+Holvast, R. (2008). Spiritual Mapping in the United States and Argentina, 1989-2005: A Geography of Fear.
+Boston, NETHERLANDS, THE: BRILL. ISBN 978-90-474-4355-1.
+http://ebookcentral.proquest.com/lib/liverpool/detail.action?docID=468141
 
-LRM. 2019. “Loitering with Intent.” http://thelrm.org/loitering-with-intent.
+Kitchin, R. (2014). The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences. SAGE
+Publications. ISBN 978-1-4739-0826-0.
 
-Mason, Jennifer. 2002. Qualitative Research.
+LRM (2019). Loitering With Intent.
+http://thelrm.org/loitering-with-intent
 
-Massey, Doreen B. 2005. For Space. London ; Thousand Oaks, Calif: SAGE.
+Mason, J. (2002). Qualitative Researching. London: SAGE.  ISBN 978 0 7619 7428 8.
 
-McLaughlin, Eithne. 1991. “Oppositional Poverty: The Quantitative/Qualitative Divide and Other Dichotomies.” The Sociological Review 39 (2): 292–308. https://doi.org/10.1111/j.1467-954X.1991.tb02982.x.
+Massey, D.B. (2005). For Space. London ; Thousand Oaks, Calif: SAGE. ISBN 978-1-4129-0361-5 978-1-4129-
+0362-2. oCLC: ocm56655660.
+8
 
-Merrifield, Andy. 2005. Guy Debord. Critical Lives. London: Reaktion.
+McLaughlin, E. (1991). Oppositional Poverty: The Quantitative/Qualitative Divide and other Dichotomies. The
+Sociological Review. 39(2):pp. 292–308. ISSN 0038-0261. doi:10.1111/j.1467-954X.1991.tb02982.x.
+https://doi.org/10.1111/j.1467-954X.1991.tb02982.x
 
-Moreau, A. Scott. 2000. “Gaining Perspective on Territorial Spirits.” Lausanne Movement. https://www.lausanne.org/content/territorial-spirits.
+Merrifield, A. (2005). Guy Debord. Critical Lives. London: Reaktion. ISBN 978-1-86189-261-4. oCLC:
+254858715.
 
-Morris, Blake. 2020. Walking Networks: The Development of an Artistic Medium. Pickering & Chatto Publishers.
+Moreau, A.S. (2000). Gaining Perspective on Territorial Spirits.
+https://www.lausanne.org/content/territorial-spirits
 
-Nietzsche, Friedrich. 1974. Thus Spoke Zarathustra. Translated by R. J. Hollingdale. London: Penguin Classics.
+Morris, B. (2020). Walking Networks: The Development of an Artistic Medium. Pickering & Chatto Publishers.
+ISBN 978-1-78661-022-5.
 
-———. 2013. On the Genealogy of Morals. Edited by Robert C. Holub. Translated by Michael A. Scarpitti. Penguin.
+Nietzsche, F. (1974). Thus Spoke Zarathustra. London: Penguin Classics. ISBN 978-0-14-044118-5.
 
-———. 2018. The Joyous Science. Translated by R. Kevin Hill. Penguin.
+——— (2013). On the Genealogy of Morals. Penguin.
 
-Otis, George. 1999. Informed Intercession. Ventura, Calif: Renew.
+——— (2018). The Joyous Science. Penguin.
 
-Oxford. 2019. “Definition of Eccentric.” Lexico Dictionaries | English. https://www.lexico.com/en/definition/eccentric.
+Otis, G. (1999). Informed Intercession. Ventura, Calif: Renew. ISBN 978-0-8307-1937-2.
 
-Plato. 2003. The Republic. Translated by Lee. 2nd ed., Reissued with new Further reading. Penguin Classics. London ; New York: Penguin Books.
+Oxford (2019). Definition of Eccentric.
+https://www.lexico.com/en/definition/eccentric
 
-Richardson, Tina. 2014. “The Unseen University: A Schizocartography of the Redbrick University Campus.” PhD thesis. http://etheses.whiterose.ac.uk/6916/1/Final\%20Thesis.pdf.
+Plato (2003). The Republic. Penguin Classics. London ; New York: Penguin Books. 2nd ed., reissued with
+new further reading edn.. ISBN 978-0-14-044914-3.
 
-———. 2015. Walking Inside Out: Contemporary British Psychogeography. Place, Memory, Affect. Lanham, Maryland: Rowman & Littlefield International, Ltd.
+Richardson, T. (2014). The Unseen University: A Schizocartography of the Redbrick University Campus. Ph.D.
+thesis.
+http://etheses.whiterose.ac.uk/6916/1/Final%20Thesis.pdf
 
-———. 2018. “Arriving and Dériving in Birmingham.” JOURNAL OF URBAN PHOTOGRAPHY, April. http://www.jup-online.com/tina-richardson/.
+——— (2015). Walking inside out: Contemporary British Psychogeography. Place, Memory, Affect. Lanham,
+Maryland: Rowman & Littlefield International, Ltd. ISBN 978-1-78348-085-2 978-1-78348-086-9.
 
-Rose, Morag. 2015. “Confessions of an Anarcho-Flâneuse, or Psychogeography the Mancunian Way.” Walking Inside Out: Contemporary British Psychogeography, 147–62.
+——— (2018). Arriving and Dériving in Birmingham. JOURNAL OF URBAN PHOTOGRAPHY.
+http://www.jup-online.com/tina-richardson/
 
-———. 2017a. “Buzzing, Bimbling, Beating Our Bounds: Walking A Line Through Manchester.” Livingmaps Review 3: 1–11.
+Rose, M. (2015). Confessions of an Anarcho-Flâneuse, or Psychogeography the Mancunian Way. Walking inside
+out: Contemporary British psychogeography. pp. 147–162.
 
-———. 2017b. “Women Walking Manchester: Desire Lines Through the ’Original Modern’ City.” PhD thesis, University of Sheffield.
+——— (2017a). Buzzing, Bimbling, Beating Our Bounds: Walking A Line Through Manchester. Livingmaps
+Review. 3:pp. 1–11.
 
-Roxburgh, Shelagh. 2019. “Witchcraft and Supernatural Harm: Navigating Spiritual Ethics in Political Science Research.” Qualitative Research 19 (6): 703–17. https://doi.org/10.1177/1468794118788004.
+——— (2017b). Women Walking Manchester: Desire Lines through the ’Original Modern’ City. Ph.D. thesis.
+University of Sheffield.
 
-Schikora, Henning. 2011. “Operation Capitals of Europe: Vision.” Operation Capitals of Europe. https://oceprayer.ywamepn.com/vision/.
+Roxburgh, S. (2019). Witchcraft and supernatural harm: Navigating spiritual ethics in political science research.
+Qualitative Research. 19(6):pp. 703–717. ISSN 1468-7941. doi:10.1177/1468794118788004.
+https://doi.org/10.1177/1468794118788004
 
-Schluter, Michael, and John Ashcroft. 2005. Jubilee Manifesto: A Framework, Agenda & Strategy for Christian Social Reform. Leicester: Inter-Varsity.
+Schikora, H. (2011). Operation Capitals of Europe: Vision.
+https://oceprayer.ywamepn.com/vision/
 
-Self, Will. 2016. Psychogeography. S.l.: Bloomsbury Publishing.
+Schluter, M. and Ashcroft, J. (2005). Jubilee Manifesto: A Framework, Agenda & Strategy for Christian Social
+Reform. Leicester: Inter-Varsity. ISBN 978-1-84474-074-1. oCLC: 442615156.
 
-Shanks, Andrew. 2005. Faith in Honesty: The Essential Nature of Theology. Aldershot, Hants, England ; Burlington, VT: Ashgate Pub.
+Self, W. (2016). Psychogeography. S.l.: Bloomsbury Publishing. ISBN 978-1-4088-8032-6. oCLC: 957549835.
 
-Shilling, Chris, ed. 2007. Embodying Sociology: Retrospect, Progress, and Prospects. 1st ed. Sociological Review Monograph. Malden, MA: Blackwell Pub.
+Shanks, A. (2005). Faith in Honesty: The Essential Nature of Theology. Aldershot, Hants, England ; Burlington,
+VT: Ashgate Pub. ISBN 978-0-7546-5320-2.
+9
 
-Sinclair, Sue. 2004. “Liverpool – a Gateway City.” In Impacting the City: A Fourfold Spiritual Warfare Strategy for Your Community. Sovereign World Ltd.
+Shilling, C. (ed.) (2007). Embodying Sociology: Retrospect, Progress, and Prospects. Sociological Review Monograph. Malden, MA: Blackwell Pub. 1st ed edn.. ISBN 978-1-4051-6794-9.
 
-Smith, James K. A. 2010. Thinking in Tongues: Pentecostal Contributions to Christian Philosophy. Pentecostal Manifestos. Grand Rapids, Mich: William B. Eerdmans Pub. Co.
+Sinclair, S. (2004). Liverpool – a Gateway City. in Impacting the City: A Fourfold Spiritual Warfare Strategy for
+Your Community. Sovereign World Ltd.. ISBN 978-1-85240-400-0.
 
-Smith, Phil. 2010. “The Contemporary Derive: A Partial Review of Issues Concerning the Contemporary Practice of Psychogeography.” Cultural Geographies 17 (1): 103–22.
+Smith, J.K.A. (2010a). Thinking in Tongues: Pentecostal Contributions to Christian Philosophy. Pentecostal Manifestos. Grand Rapids, Mich: William B. Eerdmans Pub. Co. ISBN 978-0-8028-6184-9. oCLC: ocn522429326.
 
-———. 2015. “Psychogeography and Mythogeography.” Walking Inside Out: Contemporary British Psychogeography, 163–79.
+Smith, P. (2010b). The contemporary derive: A partial review of issues concerning the contemporary practice of
+psychogeography. Cultural geographies. 17(1):pp. 103–122.
 
-———. 2019. “Making a New Myth to Understand an Old One: Research Projects in the Edgelands of Milton Keynes and the Lovecraft Villages of South Devon.” https://www.evensi.uk/making-myth-understand-research-projects-edgelands-milton-keynes-lovecraft-villages-south-devon-roxby-building/277123537.
+——— (2013). Mythogeographic Performance and Performative Interventions in Spaces of Heritage-Tourism. Ph.D.
+thesis.
+https://pearl.plymouth.ac.uk/handle/10026.1/1548
 
-Smith, Philip. 2013. “Mythogeographic Performance and Performative Interventions in Spaces of Heritage-Tourism.” PhD thesis. https://pearl.plymouth.ac.uk/handle/10026.1/1548.
+——— (2015). Psychogeography and Mythogeography. Walking inside out: Contemporary British psychogeography. pp. 163–179.
 
-Solnit, Rebecca. 2014. Wanderlust: A History of Walking. London: Granta.
+——— (2019). Making a new myth to understand an old one: Research projects in the edgelands of Milton Keynes
+and the Lovecraft villages of South Devon.
+https://www.evensi.uk/making-myth-understand-research-projects-edgelands-milton-keyneslovecraft-villages-south-devon-roxby-building/277123537
 
-Taylor, Charles. 2007. A Secular Age. Cambridge, Mass: Belknap Press of Harvard University Press.
+Solnit, R. (2014). Wanderlust: A History of Walking. London: Granta. ISBN 978-1-78378-039-6. oCLC:
+897430488.
 
-University of Liverpool. 2019. “CODE OF PRACTICE ON ASSESSMENT: Appendix L.” https://www.liverpool.ac.uk/media/livacuk/tqsd/code-of-practice-on-assessment/appendix_L_cop_assess.pdf.
+Taylor, C. (2007). A Secular Age. Cambridge, Mass: Belknap Press of Harvard University Press. ISBN 978-0-
+674-02676-6. oCLC: ocm85766076.
 
-Urry, John. 2012. Mobilities. Reprint. Cambridge: Polity Press.
+University of Liverpool (2019). CODE OF PRACTICE ON ASSESSMENT: Appendix L.
+https://www.liverpool.ac.uk/media/livacuk/tqsd/code-of-practice-on-assessment/appendix_L_-
+cop_assess.pdf
 
-Wang, Tricia. 2013. “Big Data Needs Thick Data.” Ethnography Matters. http://ethnographymatters.net/blog/2013/05/13/big-data-needs-thick-data/.
+Urry, J. (2012). Mobilities. Cambridge: Polity Press. reprint edn.. ISBN 978-0-7456-3419-7 978-0-7456-3418-0.
+oCLC: 934945954.
 
-Webb, Christine. 1992. “The Use of the First Person in Academic Writing: Objectivity, Language and Gatekeeping.” Journal of Advanced Nursing 17 (6): 747–52. https://doi.org/10.1111/j.1365-2648.1992.tb01974.x.
+Wang, T. (2013). Big Data Needs Thick Data.
+http://ethnographymatters.net/blog/2013/05/13/big-data-needs-thick-data/
 
-Wentroble, Barbara. 1999. Prophetic Intercession: Letting God Lead Your Prayers. Ventura, Calif: Renew.
+Webb, C. (1992). The use of the first person in academic writing: Objectivity, language and gatekeeping. Journal of
+Advanced Nursing. 17(6):pp. 747–752. ISSN 1365-2648. doi:10.1111/j.1365-2648.1992.tb01974.x.
+https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2648.1992.tb01974.x
 
-Wink, Walter. 1984. Naming the Powers: The Language of Power in the New Testament. The Powers, v. 1. Philadelphia: Fortress Press.
+Wentroble, B. (1999). Prophetic Intercession: Letting God Lead Your Prayers. Ventura, Calif: Renew. ISBN 978-
+0-8307-2376-8.
 
-Wright, N. T. 1992. The New Testament and the People of God. London: S.P.C.K. http://capitadiscovery.co.uk/liverpool/items/727181.
+Wink, W. (1984). Naming the Powers: The Language of Power in the New Testament. no. v. 1 in The Powers.
+Philadelphia: Fortress Press. ISBN 978-0-8006-1786-8.
 
-Žižek, Slavoj. 2014. Absolute Recoil: Towards a New Foundation of Dialectical Materialism. Verso Books.
+Wright, N.T. (1992). The New Testament and the People of God. London: S.P.C.K. ISBN 978-0-281-04593-8.
+http://capitadiscovery.co.uk/liverpool/items/727181
+
+Žižek, S. (2014). Absolute Recoil: Towards a New Foundation of Dialectical Materialism. Verso Books. ISBN 978-
+1-78168-682-9.
