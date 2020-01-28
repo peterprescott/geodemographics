@@ -4,10 +4,18 @@
 
     {{ partial "list-item" . }}
 
-    <br> <div class="text-justify">{{ .Content }}</div>
+
+    {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subtitle" }}
+    {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}        
+
+       <h5>{{ $.Scratch.Get "subtitle" }}</h5>
+
+    <br> <div class="text-">{{ .Content }}</div>
 
     <!-- related posts with the same tags -->
     {{ $related := first 3 (where (where (where .Site.Pages.ByDate.Reverse ".Type" "==" "post") ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+
+
 
     {{ if $related }}
 
@@ -15,7 +23,10 @@
 
         {{ range $related }} {{ partial "list-item" . }} {{ end }}
 
+
     {{ end }}
+
+
 
     {{ if and .Site.DisqusShortname (not .Params.disableComments) }}
 
