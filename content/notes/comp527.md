@@ -15,12 +15,6 @@ tags: [Python, Data Mining, Machine Learning, COMP527]
 * Manning (2011). [Fundamentals of Statistical Natural Language Processing](https://www.cs.vassar.edu/~cs366/docs/Manning_Schuetze_StatisticalNLP.pdf).
 * Witten et al (2011). [Data mining: practical machine learning tools and techniques](ftp://ftp.ingv.it/pub/manuela.sbarra/Data%20Mining%20Practical%20Machine%20Learning%20Tools%20and%20Techniques%20-%20WEKA.pdf).
 
-## Lecturer: [Shagufta Scanlon](https://bradscholars.brad.ac.uk/handle/10454/14180)
-
-~ which is to say that she is standing at the front reading through the notes from the previous course lecturer.  
-
-Cancelled last minute for first and third weeks.
-
 ## Intro
 
 [Notes.](http://danushka.net/lect/dm/intro.pdf)
