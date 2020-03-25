@@ -20,6 +20,10 @@ pluralizelisttitles = false
     highlight = true
     highlightStyle = "solarized-dark"
 
+[markup]
+    [markup.goldmark.renderer]
+        unsafe= true
+
 [[menu.main]]
 	url = "/about/"
 	name = "About"
@@ -64,4 +68,5 @@ pluralizelisttitles = false
     url = "https://www.linkedin.com/in/peterprescott/"
     name = "fab fa-linkedin"
     weight = 5
+
 
